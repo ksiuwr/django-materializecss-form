@@ -15,7 +15,7 @@
                         <span>{{ field.label }}</span>
                     {% endif %}
                     {% for error in field.errors %}
-                        <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+                        <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
                     {% endfor %}
 
             </label>
@@ -38,7 +38,7 @@
                         <span>{{ field.label }}</span>
                     {% endif %}
                     {% for error in field.errors %}
-                        <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+                        <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
                     {% endfor %}
             </label>
             {% if field.help_text %}
@@ -58,7 +58,7 @@
         <label for="{{ field.id_for_label }}">{{ field.label }}</label>
 
         {% for error in field.errors %}
-            <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+            <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
         {% endfor %}
 
         {% if field.help_text %}
@@ -78,7 +78,7 @@
         <label for="{{ field.id_for_label }}">{{ field.label }}</label>
 
         {% for error in field.errors %}
-            <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+            <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
         {% endfor %}
 
         {% if field.help_text %}
@@ -104,7 +104,7 @@
                 {% endif %}
 
                 {% for error in field.errors %}
-                    <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+                    <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
                 {% endfor %}
 
                 {% if field.help_text %}
@@ -127,7 +127,7 @@
                 {% endif %}
 
                 {% for error in field.errors %}
-                    <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+                    <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
                 {% endfor %}
 
                 {% if field.help_text %}
@@ -161,7 +161,7 @@
 
             </ul>
             {% for error in field.errors %}
-                <span class="help-block orange-text {{ form.error_css_class }}">{{ error }}</span>
+                <span class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</span>
             {% endfor %}
 
             {% if field.help_text %}
@@ -184,7 +184,7 @@
             {% endif %}
 
             {% for error in field.errors %}
-                <p class="help-block orange-text {{ form.error_css_class }}">{{ error }}</p>
+                <p class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</p>
                 {% endfor %}
 
             {% if field.help_text %}
@@ -198,7 +198,7 @@
         <div class="col {{ classes.label }} {{ classes.value }} {{ classes.single_value }}">
 
             {% for error in field.errors %}
-                <p class="help-block orange-text {{ form.error_css_class }}">{{ error }}</p>
+                <p class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</p>
             {% endfor %}
 
             <div class="file-field input-field">
@@ -227,7 +227,7 @@
             {% endif %}
 
             {% for error in field.errors %}
-                <p class="help-block orange-text {{ form.error_css_class }}">{{ error }}</p>
+                <p class="help-block red-text text-darken-4 {{ form.error_css_class }}">{{ error }}</p>
                 {% endfor %}
 
             {% if field.help_text %}
